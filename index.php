@@ -90,8 +90,8 @@
 <div id="bg"></div>
 <div id="myModal" class="reveal-modal large">
     <div id="traloi">
-      <h1><center>NÓI VỚI ANH <img src="http://vozforums.com/images/smilies/Off/angry.gif"/></center></h1></br>
-	  <p>Có phải em yêu anh vì anh quá tốt không? <img src="http://vozforums.com/images/smilies/Off/nosebleed.gif"/>  Nhập câu trả lời xuống bên dưới và bấm GỬI ĐI</br></br></p>
+      <h1><center>NÓI VỚI ANH <img src="images/angry.png"/></center></h1></br>
+	  <p>Có phải em yêu anh vì anh quá tốt không? <img src="images/nosebleed.png"/>  Nhập câu trả lời xuống bên dưới và bấm GỬI ĐI</br></br></p>
       <form id="f" name="f">
         <input id="form" name="txt" type="text" />
 
@@ -132,7 +132,7 @@
 			
 <h1>EM CÓ YÊU ANH KHÔNG ?</h1>
 			
-<h2>EM MÀ TẮT CÁI NÀY ĐI, KHÔNG TRẢ LỜI</br>
+<h2 style="color:#ec1cb6;font-weight:bold;">EM MÀ TẮT CÁI NÀY ĐI, KHÔNG TRẢ LỜI</br>
 THÌ SẼ PHẢI THEO ANH ĐẠT SUỐT ĐỜI ĐẤY NHÉ ♥ =))</h2>
 
 		
@@ -148,7 +148,6 @@ THÌ SẼ PHẢI THEO ANH ĐẠT SUỐT ĐỜI ĐẤY NHÉ ♥ =))</h2>
 </div>
 </center> 
 
-
 <audio src="IDO911.mp3" autoplay loop  ></audio>	
 
 <script type="text/javascript">
@@ -156,7 +155,7 @@ THÌ SẼ PHẢI THEO ANH ĐẠT SUỐT ĐỜI ĐẤY NHÉ ♥ =))</h2>
       $(document).bind("contextmenu",function(e){
         return false;
       });
-    });
+	});
  </script>
 
 </body>
